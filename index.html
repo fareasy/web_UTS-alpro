@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+    <!--No background image yet!-->
+    <section class="vh-100 center-block img-responsive" style="background-image: url();">
+        <!--Bootstrap's grid system is used to make the form responsive-->
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <!--Login card-->
+              <div class="card shadow-2-strong">
+                <div class="card-body p-5 text-center">
+                  <!--Heading-->
+                  <h3 class="mb-4">Sign in</h3>
+                  <!--Floating labels-->
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+                    <label for="Username">Username</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="Password">Password</label>
+                  </div>
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex justify-content-start mb-4">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+                    <label class="form-check-label ms-2" for="form1Example3"> Remember password </label>
+                  </div>
+                  <!--Button directs to landing page-->
+                  <!--Need to add validation logic!-->
+                  <a href="home.html" class="btn btn-primary btn-lg" role="button">Login</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
