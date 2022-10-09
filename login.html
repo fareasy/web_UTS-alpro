@@ -6,55 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <style>
-      *{font-family:'Poppins'
-      }
-    </style>
     <title>Login</title>
 </head>
 <body>
 <!-- Section: Design Block -->
-<section >
+<section class="pt-5" >
   <!-- Jumbotron -->
-  <div class="pt-5 mt-5 text-center text-lg-start" style="background-color: #b4b4b4;">
+  <div class="pt-5 mt-5 text-center text-lg-start" style="background-color: #eaf3fa;">
     <div class="container">
       <div class="row gx-lg-5 align-items-center">
         <div class="col-lg-6 mb-5 mb-lg-0">
           <h1 class="my-5 display-3 fw-bold ls-tight">
-            Get Started. <br />
-            <span class="text-dark">Learn New Skills.</span>
+            Mulai dari Sekarang. <br />
+            <span class="text-dark">Pelajari Hal Baru.</span>
           </h1>
           <p>
-            Welcome to the best online learning plaform on the internet.
+            Selamat datang di studi. 
           </p>
         </div>
 
         <div class="col-lg-6 mb-2 mb-lg-5">
           <div class="card">
             <div class="card-body py-5 px-md-5">
-              <form>
+              <form action="home.html">
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <div class="row">
                   <h4>User Login</h4>
+                  <p>Anda perlu login agar dapat mengakses Dashboard</p>
                   <div class="col-md-6 mb-4">
                   </div>
                 </div>
 
                 <!-- Email input -->
                 <div class="form-floating mb-5">
-                  <input type="text" id="formName" class="form-control" />
+                  <input type="text" id="formName" class="form-control" required/>
                   <label class="form-label" for="formName">Username</label>
                 </div>
 
                 <!-- Password input -->
                 <div class="form-floating mb-5">
-                  <input type="password" id="formName" class="form-control" />
+                  <input type="password" id="formName" class="form-control" required/>
                   <label class="form-label" for="formName">Password</label>
                 </div>
 
                 <!-- Submit button -->
-                <a href="index.html" class="btn btn-lg btn-primary shadow-lg" style="background-color: #b4b4b4;border-color: white;">Login</a>
+                <button type="submit" class="btn btn-lg btn-primary"style="background-color: #bce1fd;color:black;border:none">Login</button>
               </form>
             </div>
           </div>
@@ -62,10 +58,11 @@
       </div>
     </div>
   </div>
-  <!-- Jumbotron -->
-</section>
-<!-- Section: Design Block -->
 
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/script.js"></script>
 
 
 </body>
